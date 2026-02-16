@@ -1,0 +1,25 @@
+Privacy Policy for Food Stats
+
+Last Updated: January 19, 2026
+
+1. Overview
+Food Stats ("we", "us", or "our") is a Chrome Extension designed to help users visualize their Zomato food order history. We are committed to protecting your privacy. This policy explains how your data is handled.
+
+2. Data Collection and Usage
+Food Stats operates as a standalone client-side application. 
+- We do NOT transmit any of your personal data, financial information, or order history to external servers.
+- All data fetching and processing happens locally within your browser.
+- Your order history is stored locally on your device using Chrome's "Local Storage" API (chrome.storage.local) solely for the purpose of generating your personal dashboard.
+
+3. Permissions
+- **Host Permissions (*://*.zomato.com/):** Used strictly to fetch your order history JSON from Zomato web routes while you are logged in.
+- **Storage:** Used to save your fetched order history on your device so you don't need to re-sync every time.
+
+4. Third-Party Sharing
+We do not sell, trade, or otherwise transfer your identifiable information to outside parties. Your data never leaves your browser environment.
+
+5. User Consent
+By using Food Stats, you consent to this privacy policy.
+
+6. Contact
+If you have questions about this policy, please contact us at: [Your Email Here]

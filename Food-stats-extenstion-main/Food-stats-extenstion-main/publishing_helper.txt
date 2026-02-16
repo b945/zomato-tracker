@@ -1,0 +1,47 @@
+PUBLISHING JUSTIFICATIONS & DETAILS
+
+Copy and paste these answers into the Privacy Practices tab and Store Listing:
+
+-----------------------------------------------------------------------
+1. SINGLE PURPOSE DESCRIPTION
+-----------------------------------------------------------------------
+A privacy-first dashboard that calculates and visualizes your Zomato food delivery spending trends, order history, and favorite restaurants locally on your device.
+
+-----------------------------------------------------------------------
+2. PERMISSION JUSTIFICATIONS (Privacy Practices Tab)
+-----------------------------------------------------------------------
+
+
+
+► "contextMenus" Justification:
+"Used to add a right-click context menu item ('Open Zomato Dashboard') that allows users to quickly access their statistics page from anywhere."
+
+► "host_permissions" (or "Host Permission") Justification:
+"The extension acts as a specialized client that fetches specific JSON data from '*://*.zomato.com/*' (the user's order history) to generate the statistics. This access is strictly limited to Zomato domains to enable the core functionality."
+
+
+
+► "storage" Justification:
+"All order data and calculated statistics are stored strictly locally on the user's device using Chrome Storage. This ensures user privacy as no data is sent to external servers, and allows the dashboard to load instantly without re-fetching data."
+
+► "Remote Code" Justification:
+"No, I do not use remote code. All logic is contained within the extension package."
+
+-----------------------------------------------------------------------
+3. OTHER REQUIRED ACTIONS
+-----------------------------------------------------------------------
+
+► Category:
+Select "Lifestyle" or "Productivity".
+
+► Language:
+Select "English".
+
+► Icon Image Missing:
+Upload the "icon128.png" file found in your project's `icons` folder.
+
+► Screenshots:
+Upload the 2 images found in your project's `screenshots` folder.
+
+► Data Usage Certification:
+Check the box that certifies your data usage complies with policies. (You are compliant because you only store data locally).

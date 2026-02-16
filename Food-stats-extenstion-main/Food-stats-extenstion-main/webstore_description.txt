@@ -1,0 +1,37 @@
+Food Stats - Track Your Zomato Spending 🍛
+
+Ever wondered how much you've really spent on food delivery? Food Stats gives you deep insights into your Zomato ordering habits with a beautiful, privacy-first dashboard.
+
+Unlock the data behind your cravings! Food Stats analyzes your order history to show you exactly where your money goes.
+
+✨ KEY FEATURES:
+
+📊 Lifetime Expense Tracker
+See your customized "Total Spent," "Total Orders," and "Average Order Value" instantly.
+
+📈 Visual Spending Trends
+View your monthly spending history on an interactive line graph. Spot your most expensive months at a glance.
+
+🕒 Order Time Analysis
+Are you a late-night snacker or a lunch-time ordering pro? See a breakdown of your most frequent ordering times.
+
+🏆 Top Restaurants & Categories
+Discover your favorite spots! We generate a list of your Top 10 most-ordered restaurants and a breakdown of your top food categories.
+
+📅 Flexible Filtering
+Slice and dice your data with filters for "Last 30 Days," "Last 3 Months," "Last 1 Year," or go all the way back with "All Time."
+
+🔒 Privacy First
+Your data belongs to you. Food Stats runs entirely in your browser and stores your order history locally on your device. No data is ever sent to external servers.
+
+Made from Kerala with ❤️
+
+---
+
+How to use:
+1. Install the extension.
+2. Log in to Zomato.com.
+3. Click the extension icon and hit "Sync Data".
+4. Enjoy your personalized food stats dashboard!
+
+Disclaimer: This extension is an independent project and is not affiliated with, endorsed by, or sponsored by Zomato.

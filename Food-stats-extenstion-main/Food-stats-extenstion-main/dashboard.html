@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Zomato Expense Disclaimer</title>
+    <link rel="stylesheet" href="dashboard.css">
+    <script src="lib/chart.js"></script>
+</head>
+
+<body>
+    <div class="container">
+        <header>
+            <div class="logo">
+                <h1>Food Stats</h1>
+            </div>
+            <div class="controls">
+                <div class="filter-presets">
+                    <button class="btn-filter" data-range="30">Last 30 Days</button>
+                    <button class="btn-filter" data-range="90">Last 3 Months</button>
+                    <button class="btn-filter" data-range="365">Last 1 Year</button>
+                    <button class="btn-filter active" data-range="all">All Time</button>
+                </div>
+                <div class="date-inputs">
+                    <input type="date" id="startDate">
+                    <span class="to-text">to</span>
+                    <input type="date" id="endDate">
+                </div>
+                <button id="syncButton" class="btn-primary">Sync Data</button>
+            </div>
+        </header>
+
+        <div id="loading" class="hidden">
+            <div class="spinner"></div>
+            <p id="statusMsg">Processing...</p>
+        </div>
+
+        <div id="dashboardContent">
+            <!-- Summary Caps -->
+            <div class="summary-grid">
+                <div class="card summary-card">
+                    <h3>Total Spent</h3>
+                    <p class="big-number" id="totalSpent">₹0</p>
+                </div>
+                <div class="card summary-card">
+                    <h3>Total Orders</h3>
+                    <p class="big-number" id="totalOrders">0</p>
+                </div>
+                <div class="card summary-card">
+                    <h3>Avg Order Value</h3>
+                    <p class="big-number" id="avgOrderValue">₹0</p>
+                </div>
+            </div>
+
+            <!-- Charts Row 1 -->
+            <div class="charts-grid">
+                <div class="card chart-card wide">
+                    <h3>Monthly Spending Trend</h3>
+                    <canvas id="monthlyChart"></canvas>
+                </div>
+                <div class="card chart-card">
+                    <h3>Order Time Analysis</h3>
+                    <canvas id="timeChart"></canvas>
+                </div>
+            </div>
+
+            <div class="charts-grid">
+                <div class="card chart-card">
+                    <h3>Top Categories</h3>
+                    <canvas id="categoryChart"></canvas>
+                </div>
+                <div class="card list-card">
+                    <h3>Top 10 Restaurants</h3>
+                    <table class="table">
+                        <thead>
+                            <tr>
+                                <th>Restaurant</th>
+                                <th>Orders</th>
+                                <th>Amount</th>
+                            </tr>
+                        </thead>
+                        <tbody id="topRestaurantsList">
+                            <!-- Items here -->
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+        </div>
+
+        <footer>
+            <p>Made from Kerala with ❤️</p>
+        </footer>
+    </div>
+    <script src="dashboard.js"></script>
+</body>
+
+</html>
